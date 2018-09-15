@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "chefs",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "email contact": {
+      "default": "",
+      "type": "email"
+    },
+    "profile picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "receipes": {
+      "collection": "receipename",
+      "via": "chef",
+      "columnName": ""
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/receipename",
+      "handler": "Receipename.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/receipename/count",
+      "handler": "Receipename.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/receipename/:_id",
+      "handler": "Receipename.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/receipename",
+      "handler": "Receipename.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/receipename/:_id",
+      "handler": "Receipename.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/receipename/:_id",
+      "handler": "Receipename.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "location",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "location Name": {
+      "default": "",
+      "type": "string"
+    },
+    "distance": {
+      "default": "",
+      "type": "float"
+    },
+    "region": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
+    }
+  }
+}

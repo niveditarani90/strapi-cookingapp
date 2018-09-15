@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "recipename",
+  "info": {
+    "name": "receipename",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    
+  }
+}
